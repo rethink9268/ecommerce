@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_info_pluses",
+  "info": {
+    "displayName": "plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "plusName": {
+      "type": "string"
+    },
+    "plusDesc": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

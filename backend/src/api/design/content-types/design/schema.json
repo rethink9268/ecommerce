@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "designs",
+  "info": {
+    "singularName": "design",
+    "pluralName": "designs",
+    "displayName": "design",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner"
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "logo.logo"
+    },
+    "darkThemeLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "logo.logo"
+    }
+  }
+}
