@@ -1,8 +1,8 @@
-import React, { useCallback } from 'react'
+import React from 'react'
 import { BsFillGridFill, BsList } from 'react-icons/bs'
 import styled from 'styled-components'
-import { useProductsContext } from '../../contexts/products_context.js'
-import useDebounce from '../../hooks/useDebounce.js'
+import { useProductsContext } from '../contexts/products_context.js'
+import useDebounce from '../hooks/useDebounce.js'
 import { useEffect } from 'react'
 
 

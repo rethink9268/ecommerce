@@ -1,7 +1,7 @@
 import React from 'react'
-import { useProductsContext } from '../../contexts/products_context.js'
+import { useProductsContext } from '../contexts/products_context.js'
 import ListView from './ListView.js'
-import GridView from './GridView.js'
+import GridView from '../components/GridView.js'
 
 export default function ProductList() {
     const { productsData, grid_view } = useProductsContext()

@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import PageHero from '../../components/PageHero.js'
-import Filter from './Filter.js'
-import ProductList from './ProductList.js'
+import Filter from '../../components/Filter.js'
+import ProductList from '../../components/ProductList.js'
 
 export default function Products() {
 
