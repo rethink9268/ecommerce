@@ -1,5 +1,5 @@
 import axiosClient from '../api/axiosClient.js'
-import React, { useContext, useEffect, useReducer, useState } from 'react'
+import React, { useContext, useEffect, useReducer } from 'react'
 import { productsURL } from '../asset/urls.js'
 import reducer from '../reducers/products_reducer.js'
 import {
@@ -98,10 +98,12 @@ export const ProductsProvider = ({ children }) => {
 
     useEffect(() => {
         getProductsData()
+        // eslint-disable-next-line
     }, [state.sort_query])
 
     useEffect(() => {
         getProductsData()
+        // eslint-disable-next-line
     }, [])
 
     return (
